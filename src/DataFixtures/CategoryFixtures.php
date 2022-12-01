@@ -15,7 +15,7 @@ class CategoryFixtures extends Fixture
         'Horror',
         ];
 
-    public function load(ObjectManager $manager)git
+    public function load(ObjectManager $manager)
     {
         foreach (self::CATEGORIES as $key => $categoryName) {
             $category = new Category ();
